@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background-color: #ffffff
+}
+
+h2 {
+  margin-left: 5%;
+  text-align: left;
+  text-shadow: 0px 0px 10px black;
+  text-decoration-line: underline;
+  color: #ff1919;
+  border-bottom: 2px solid #00d5ff;
+}
+
+p {
+  text-align: center;
+  color: black;
+}
+
+img {
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+  margin-left: 50%;
+}
+
+button {
+  background-color: #FFC857;
+  color: rgb(4, 134, 247);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+.grass-print {
+  background: url('https://media.istockphoto.com/id/1132995302/photo/differents-dogs-looking-at-camera-isolated-on-a-white-background.jpg?s=612x612&w=0&k=20&c=sAP52PfVFBbbJSpkmKyPagnDga1tUOvV52gYGKornfI=');
+  padding: 60px;
+}
+
+#puppyBanner {
+  background-image: url('https://creativelandscapedepot.com/img/grass-banner-34.jpg');
+  color: #d0ff00;
+  font-size: 80px;
+  text-align: center;
+  text-shadow: 10px 10px 10px #FFC857;
+  padding: 60px;
+}
+
+.puppy-quote {
+  font-style: italic;
+  padding-left: 10px;
+  margin: 20px;
+  font-size: 20px;
+}
